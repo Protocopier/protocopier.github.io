@@ -124,9 +124,9 @@ font header .navbar-default .navbar-nav li a:hover {
 --*/
 #slider {
   background: url("../img/chairs.jpeg") no-repeat;
-  background-size: 100%;
+  background-size: 100% auto;
   background-attachment: fixed;
-  background-position: center bottom;
+  background-position: center top;
   padding: 200px 0 200px 0;
   position: relative;
   /*-- border-style: solid;
