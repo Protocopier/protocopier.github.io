@@ -742,11 +742,8 @@ font header .navbar-default .navbar-nav li a:hover {
 .google-map {
   position: relative;
   padding-bottom: 75%; 
-  height: 0;
-  overflow: hidden;
 }
 .google-map iframe {
-  position: absolute;
   top: 0;
   left: 0;
   width: 100% ;
