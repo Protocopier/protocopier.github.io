@@ -1,7 +1,6 @@
-# _Airspace_ for Jekyll
-![screenshot](screenshots/home.png "Description goes here")
+# Protocopier Website
 
-This Jekyll theme is a port of ThemeFisher's Airspace template. It is released under ThemeFisher's free license, which requires attribution.
+This is the source code of the [protocopier project](http://protocopier.github.io).
 
-## Usage
-To start your project, [fork this respository](https://github.com/luminousrubyist/airspace-jekyll/fork), put in your content, and go!
+## Deployment
+The website is automatically compiled and hosted by github. However, for local tests you can use [Jekyll](https://jekyllrb.com/).
