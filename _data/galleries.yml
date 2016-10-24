@@ -1,0 +1,20 @@
+- id: general
+  description: General pics of team meetings and collective work
+  imgfolder: /img/photos/General
+  images:
+    - name: firstMeetingAngeloFeatured.jpg
+      thumb: firstMeetingAngeloFeatured.gif
+      text: Our First Team Meeting
+    - name: wholeTeam.jpg
+      thumb: wholeTeam.gif
+      text: Teaching Room Experiments
+- id: hardware
+  description: Pictures from the Hardware Team!
+  imgfolder: /img/photos/Hardware
+  images:
+    - name: servoMount.jpg
+      thumb: servoMount.gif
+      text: The Mounting for our Servo Motor
+    - name: scanningRubiks.jpg
+      thumb: scanningRubiks.gif
+      text: Scanning a Rubiks Cube

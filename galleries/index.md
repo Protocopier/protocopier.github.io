@@ -1,15 +1,6 @@
 ---
-layout: page
+layout: default
 title: Gallery
-permalink: /gallery/
-imgfolder: /img/photos/General
-images:
-  - name: firstMeetingAngeloFeatured.jpg
-    thumb: firstMeetingAngeloFeatured.jpg
-    text: Our First Team Meeting
-  - name: wholeTeam.jpg
-    thumb: wholeTeam.jpg
-    text: Teaching Room Experiments
 ---
 <!-- Slider Start -->
 <section id="global-header">
@@ -31,9 +22,10 @@ images:
     <div class="col-md-12">
       <div class="block">
 	<h1>Our Photos</h1>
-        {% include gal.html %}
+        {% for gallery in site.data.galleries %}
+        - [{{ gallery.description }}]({{ gallery.id }})
+        {% endfor %}
       </div>
     </div>
   </div>
 </div>
-
