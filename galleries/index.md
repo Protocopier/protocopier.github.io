@@ -8,8 +8,8 @@ title: Gallery
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Drop Us A Note</h1>
-          <p>Don’t just take our word for it. Get in touch to know more about the protocopier project.</p>
+          <h1>A view of our project</h1>
+          <p>We've been snapping away over the course of the project, check out our snaps below!</p>
         </div>
       </div>
     </div>
@@ -23,7 +23,9 @@ title: Gallery
       <div class="block">
 	<h1>Our Photos</h1>
         {% for gallery in site.data.galleries %}
-        - [{{ gallery.description }}]({{ gallery.id }})
+	<a href="{{ site.baseurl }}/galleries/{{ gallery.id }}">
+        <h1>[{{ gallery.description }}]</h1><br />
+	</a>
         {% endfor %}
       </div>
     </div>

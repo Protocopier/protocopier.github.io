@@ -4,7 +4,13 @@
   images:
     - name: firstMeetingAngeloFeatured.jpg
       thumb: firstMeetingAngeloFeatured.gif
-      text: Our First Team Meeting
+      text: First Team Meeting (1/3)
+    - name: firstMeetingOmarMatthewFeatured.jpg
+      thumb: firstMeetingOmarMatthewFeatured.gif
+      text: First Team Meeting (2/3)
+    - name: firstMeetingDanFeatured.jpg
+      thumb: firstMeetingDanFeatured.gif
+      text: First Team Meeting (3/3)
     - name: wholeTeam.jpg
       thumb: wholeTeam.gif
       text: Teaching Room Experiments
@@ -12,9 +18,21 @@
   description: Pictures from the Hardware Team!
   imgfolder: /img/photos/Hardware
   images:
+    - name: hardwareTeamChat.jpg
+      thumb: hardwareTeamChat.gif
+      text: Meet the hardware team!
+    - name: kinectUnderside.jpg
+      thumb: kinectUnderside.gif
+      text: Measuring the underside of the Kinect Camera
     - name: servoMount.jpg
       thumb: servoMount.gif
       text: The Mounting for our Servo Motor
+    - name: hexagonCutting.jpg
+      thumb: hexagonCutting.gif
+      text: Cutting out the Hexagonal mount for our base
     - name: scanningRubiks.jpg
       thumb: scanningRubiks.gif
       text: Scanning a Rubiks Cube
+    - name: logoOnHW.jpg
+      thumb: logoOnHW.gif
+      text: Finally, the logo has appeared on our interface
