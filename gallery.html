@@ -2,14 +2,15 @@
 layout: page
 title: Gallery
 permalink: /gallery/
-imgfolder:/img/photos/General
+imgfolder: /img/photos/General
 images:
   - name: firstMeetingAngeloFeatured.jpg
-      text: Our First Team Meeting
+    thumb: firstMeetingAngeloFeatured.jpg
+    text: Our First Team Meeting
   - name: wholeTeam.jpg
-      text: Teaching Room Experiments.jpg
+    thumb: wholeTeam.jpg
+    text: Teaching Room Experiments
 ---
-
 <!-- Slider Start -->
 <section id="global-header">
   <div class="container">
@@ -30,6 +31,7 @@ images:
     <div class="col-md-12">
       <div class="block">
 	<h1>Our Photos</h1>
+        {% include gal.html %}
       </div>
     </div>
   </div>
