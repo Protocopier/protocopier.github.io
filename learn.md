@@ -17,11 +17,19 @@ permalink: /learn/
   </div>
 </section>
 
-{% for tutorial in site.tutorials %}
+
+ {% for tutorial in site.data.tutorials %}
 <div class="post-area">
-  <a href="{{ tutorial.url | prepend: site.baseurl }}" class="bold">{{ tutorial.title }}</a>
+  {{ tutorial.title }}
   <p>
-    {{ tutorial.content }}
+  <div style="width:800px; margin:0 auto;">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ tutorial.youtubeid }}" frameborder="0" allowfullscreen></iframe>
+	</div>
+  <hr/>
+    {{ tutorial.description }}
   </p>
 </div>
 {% endfor %}
+
+
+
