@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learn
-permalink: /tutorials/
+permalink: /learn/
 ---
 <!-- Slider Start -->
 <section id="global-header">
@@ -16,11 +16,12 @@ permalink: /tutorials/
     </div>
   </div>
 </section>
-{% for post in site.tutorials %}
+
+{% for tutorial in site.tutorials %}
 <div class="post-area">
-  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <a href="{{ tutorial.url | prepend: site.baseurl }}" class="bold">{{ tutorial.title }}</a>
   <p>
-    {{ post.content }}
+    {{ tutorial.content }}
   </p>
 </div>
 {% endfor %}
