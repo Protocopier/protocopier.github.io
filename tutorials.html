@@ -1,0 +1,26 @@
+---
+layout: page
+title: Learn
+permalink: /tutorials/
+---
+<!-- Slider Start -->
+<section id="global-header">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h1>Getting Started with Protocopier</h1>
+          <p>Learn more about the whole process of 3D scanning, modeling, and printing.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% for post in site.tutorials %}
+<div class="post-area">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a>
+  <p>
+    {{ post.content }}
+  </p>
+</div>
+{% endfor %}
