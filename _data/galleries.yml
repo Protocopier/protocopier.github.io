@@ -36,3 +36,59 @@
     - name: logoOnHW.jpg
       thumb: logoOnHW.gif
       text: Finally, the logo has appeared on our interface
+- id: scanning
+  description: Pictures from the scanning team
+  imgfolder: /img/photos/Scanning
+  images:
+    - name: scanningSoftwareFirst.jpg
+      thumb: scanningSoftwareFirst.gif
+      text: Our first scanning software
+    - name: scanningBook.jpg
+      thumb: scanningBook.gif
+      text: Scanning a book
+    - name: objectTable.jpg
+      thumb: objectTable.gif
+      text: A table of objects being scanned
+    - name: mugWireFrame.png
+      thumb: mugWireFrame.gif
+      text: Omar's mug after being scanned
+    - name: apple_scan.png
+      thumb: apple_scan.gif
+      text: Scan of an apple
+    - name: dyson_scan.png
+      thumb: dyson_scan.gif
+      text: Scanning a Dyson Logo
+- id: printing
+  description: Pictures from the printing team
+  imgfolder: /img/photos/Printing
+  images:
+    - name: ultimaker2go.jpg
+      thumb: ultimaker2go.gif
+      text: Our 3D printer
+    - name: 3DprintingClose.jpg
+      thumb: 3DprintingClose.gif
+      text: Close-up of 3D printing
+    - name: apple.png
+      thumb: apple.gif
+      text: Original Apple Scan
+    - name: apple_poisson.png
+      thumb: apple_poisson.gif
+      text: Apple scan post smoothing
+    - name: apple_cropped.png
+      thumb: apple_cropped.gif
+      text: The Apple ready for printing
+    - name: 1.png
+      thumb: 1.gif
+      text: Preparing a scan for printing (1/5)
+    - name: 2.png
+      thumb: 2.gif
+      text: Preparing a scan for printing (2/5)
+    - name: 3.png
+      thumb: 3.gif
+      text: Preparing a scan for printing (3/5)
+    - name: 4.png
+      thumb: 4.gif
+      text: Preparing a scan for printing (4/5)
+    - name: 6.png
+      thumb: 6.gif
+      text: Preparing a scan for printing (5/5)

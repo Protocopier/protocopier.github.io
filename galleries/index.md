@@ -21,10 +21,11 @@ title: Gallery
   <div class="row">
     <div class="col-md-12">
       <div class="block">
-	<h1>Our Photos</h1>
+	<h1>Our Galleries</h1>
         {% for gallery in site.data.galleries %}
-	<a href="{{ site.baseurl }}/galleries/{{ gallery.id }}">
-        <h1>[{{ gallery.description }}]</h1><br />
+	<h2>{{ gallery.id }}</h2>
+	<a href="{{ site.baseurl }}/galleries/{{ gallery.id }}" title="{{ gallery.description }}">
+	<img src="{{ site.baseurl }}{{ gallery.imgfolder }}/cover.jpg" style="width: 25em">
 	</a>
         {% endfor %}
       </div>
