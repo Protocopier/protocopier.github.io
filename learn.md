@@ -21,7 +21,7 @@ permalink: /learn/
  {% for tutorial in site.data.tutorials %}
 <div class="post-area">
   
-  <a href=""https://www.youtube.com/embed/{{ tutorial.youtubeid }}"" class="bold">{{ tutorial.title }}</a>
+  <a href="https://www.youtube.com/embed/{{ tutorial.youtubeid }}" class="bold">{{ tutorial.title }}</a>
   <p>
   <div style="width:800px; margin:0 auto;">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/{{ tutorial.youtubeid }}" frameborder="0" allowfullscreen></iframe>
