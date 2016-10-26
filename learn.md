@@ -9,7 +9,7 @@ permalink: /learn/
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h1>Getting Started with Protocopier</h1>
+          <h1>The Science Behind the ProtoCopier</h1>
           <p>Learn more about the whole process of 3D scanning, modeling, and printing.</p>
         </div>
       </div>
