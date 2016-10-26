@@ -28,7 +28,6 @@ permalink: /learn/
   <hr/>
     {{ tutorial.description }}
   </p>
-  <hr/>
 </div>
 {% endfor %}
 
