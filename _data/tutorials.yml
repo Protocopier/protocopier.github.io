@@ -1,9 +1,12 @@
-- title: Introduction
+- title: 1. Introduction
   description: In this video, we introduce the ProtoCopier, and start to think about the kinds of challenges associated with the system.
   youtubeid: 5380nhZWpUE
-- title: Challenges of Computer Vision
+- title: 2. Challenges of Computer Vision
   description: In this video, we discuss the difficulties of computers acquiring meaning from visual information, and how we take for granted the miraculous things that our brains can do for us with ease.
   youtubeid: U5WgmFWrHIo
-- title: The SLAM Problem
+- title: 3. The SLAM Problem
   description: In this video, we discuss the problem of acquiring a 3D model of an object, using only simple cameras. We discuss this in the context of the well known "Simultaneous Localisation and Mapping" (SLAM) problem.
   youtubeid: QX5aIoJueDI
+- title: 4. The SLAM Algorithm
+  description: In this video, we discuss how the SLAM algorithm is implemented in a simple form. We present the problem is probabilistic terms, where we aim to find the most likely 3D map and camera poses given our observed data. We then explore how Bayes rules can be applied to form an efficient iterative solution.
+  youtubeid: w51X-zUOG4Q
