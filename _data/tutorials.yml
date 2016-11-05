@@ -1,9 +1,9 @@
 - title: Introduction
   description: In this video, we introduce the ProtoCopier, and start to think about the kinds of challenges associated with the system.
-  youtubeid: JpnzxFNT_p0
+  youtubeid: 5380nhZWpUE
 - title: Challenges of Computer Vision
   description: In this video, we discuss the difficulties of computers acquiring meaning from visual information, and how we take for granted the miraculous things that our brains can do for us with ease.
-  youtubeid: Z2MTRDX8vSw
+  youtubeid: U5WgmFWrHIo
 - title: The SLAM Problem
   description: In this video, we discuss the problem of acquiring a 3D model of an object, using only simple cameras. We discuss this in the context of the well known "Simultaneous Localisation and Mapping" (SLAM) problem.
-  youtubeid: uuci-ei-gAU
+  youtubeid: QX5aIoJueDI
